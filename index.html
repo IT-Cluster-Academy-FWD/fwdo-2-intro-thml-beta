@@ -1,11 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>FWD Lesson</title>
+  <style>
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    td,
+    th {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+    }
+
+    tr:nth-child(even) {
+      background-color: #dddddd;
+    }
+  </style>
 </head>
+
 <body>
-  
+  <!-- Created users table -->
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Phone</th>
+        <th>Address</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td rowspan="3">Jane</td>
+        <td>+555 555 551</td>
+        <td>122 Main str.</td>
+      </tr>
+      <tr>
+        <td>+555 555 5533</td>
+        <td>1252 Main str.</td>
+      </tr>
+      <tr>
+        <td>+555 555 5533</td>
+        <td>1252 Main str.</td>
+      </tr>
+      <tr>
+        <td>John</td>
+        <td>+555 555 552</td>
+        <td>123 Main str.</td>
+      </tr>
+      <tr>
+        <td>Mike</td>
+        <td>+555 555 553</td>
+        <td>124 Main str.</td>
+      </tr>
+      <tr>
+        <td>Boob</td>
+        <td>+555 555 554</td>
+        <td>125 Main str.</td>
+      </tr>
+      <tr>
+        <td>Dug</td>
+        <td>+555 555 535</td>
+        <td>126 Main str.</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="3">Contact info</td>
+      </tr>
+    </tfoot>
+  </table>
 </body>
+
 </html>
